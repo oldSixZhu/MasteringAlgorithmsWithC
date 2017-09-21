@@ -7,8 +7,7 @@
 //
 
 #include "list.h"
-#include <string.h>
-#include <stdlib.h>
+
 
 //初始化一个链表
 void list_init(List *list,void (*destroy)(void *data))
